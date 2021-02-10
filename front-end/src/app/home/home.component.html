@@ -1,0 +1,36 @@
+<section>
+  <nav>
+    <ul class="menuItems">
+      <li><a >COM BANK</a></li>
+      <li><a (click)="signout()">Log out</a></li>
+    </ul>
+  </nav>
+</section>
+<section>
+  <div class="card" *ngFor="let employee of employeeList">
+    <div class="title">
+      <div style="margin-right: 10px;border-radius: 50%;">
+        <img style="width:50px;height:50px; border-radius: 50%;" src={{employee.photo}} alt="Employee Image">
+      </div>
+      <div>
+        <h2>{{employee.name}}</h2>
+      </div>
+    </div>
+    <div class="content">
+      <h2><span>Bank: </span>{{employee.bank}}</h2>
+      <h2><span>Branch: </span>{{employee.branch}}</h2>
+      <div class="social">
+        <i class="fas fa-globe-europe"></i>
+        <a>
+          {{employee.email}}</a>
+      </div>
+    </div>
+    <div class="circle">
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- <button (click)="signout()">Log out</button> -->
