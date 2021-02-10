@@ -11,7 +11,11 @@ cd front-end
 npm install
 npm start
 ```
-##### 3. Use employee credentials to login from below table
+##### 3. Open brower in [http://localhost:4200/](http://localhost:4200/)
+
+
+
+##### 4. Use employee credentials to login from below table
 
 
 #### Authorized Bank Employees
