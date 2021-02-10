@@ -1,17 +1,17 @@
 ### How to run the project
 
-#####1. Commands for run node back-end
+##### 1. Commands for run node back-end
 ```shell
 npm install
 npm start
 ```
-#####2. Commands for run Angular 11 front-end
+##### 2. Commands for run Angular 11 front-end
 ```shell
 cd front-end
 npm install
 npm start
 ```
-#####2. Use employee credentials to login from below table
+##### 3. Use employee credentials to login from below table
 
 
 #### Authorized Bank Employees
